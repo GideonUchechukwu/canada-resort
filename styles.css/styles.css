@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.link-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(8, 8, 39);
+}
+
+.link-cont img {
+    display: flex;
+    width: 300px;
+    height: 150px;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: rgb(249, 247, 247);
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.lists li:hover {
+    color: rgb(179, 131, 9);
+}
+
+.buttin {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid gold;
+}
+
+.buttin:hover {
+    cursor: pointer;
+    background-color: rgb(179, 131, 9);
+    border: none;
+
+
+}
+
+.links-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(7, 7, 30, 0.613);
+    cursor: pointer;
+}
+
+.links-cont img {
+    justify-content: space-between;
+    align-items: start;
+    width: 100px;
+    height: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+
+}
+
+p {
+    width: 200px;
+    height: 50px;
+
+}
+
+.info p:hover {
+
+    color: goldenrod;
+}
+
+.bg-img {
+    background-image: url("../img/ilovecad.jpeg");
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.bg-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(37, 37, 38, 0.613);
+    cursor: pointer;
+}
+
+.info-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 8, 39);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.info-2 li:hover {
+    color: goldenrod;
+}
+
+.contain {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.information {
+    display: flex;
+    justify-content: flex;
+    text-align: flex;
+    gap: 20px;
+    color: black;
+    padding-right: 1000px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.information li:hover {
+    color: goldenrod;
+}
