@@ -448,14 +448,14 @@ ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 200px;
     margin: auto;
     gap: 90px;
     background-color: rgb(3, 3, 55);
 }
 
 .closed-cont div img {
-    width:40%;
+    width: 40%;
     height: 90px;
 }
 
